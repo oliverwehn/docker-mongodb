@@ -1,0 +1,19 @@
+mongo:
+  build: ./1.0
+  environment:
+    MONGODB_ADMIN_PASS: 4dmini$$7r470r
+    MONGODB_USER_NAME: hc_app_user
+    MONGODB_USER_PASS: 4ppu$$3r
+    MONGODB_USER_DB: hc_app
+  volumes_from:
+    - mongodata
+  ports:
+    - "27017"
+    - "28017"
+
+mongodata:
+  image: ubuntu:14.04
+  volumes:
+    - /data/db
+  entrypoint: ['/bin/bash']
+  command: 'Mongo Data Container'
