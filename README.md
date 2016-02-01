@@ -8,19 +8,21 @@ Based on [tutum/mongodb](https://github.com/tutumcloud/tutum-docker-mongodb) ima
 MongoDB version
 ---------------
 
-Different versions are built from different folders. If you want to use MongoDB, please check the image’s repository: https://github.com/oliverwehn/oliverwehn-docker-mongodb
+Different versions are built from different folders.
 
 
 Usage
 -----
 
+If you’d like to build the image from its Dockerfile, clone its repo from https://github.com/oliverwehn/oliverwehn-docker-mongodb.
 To create the image `oliverwehn/mongodb`, execute the following command on the tutum-mongodb folder:
 
 ```shell
+# Build mongodb image using v3.0
 docker build -t oliverwehn/mongodb 3.0/ .
 ```
 
-
+If you’d go the usual way and just let Docker pull the image from Docker Hub, proceed below.
 
 
 Running the MongoDB server
