@@ -1,5 +1,5 @@
 mongo:
-  build: ./1.0
+  image: oliverwehn/mongodb
   environment:
     MONGODB_ADMIN_PASS: 4dmini$$7r470r
     MONGODB_USER_NAME: app_user
