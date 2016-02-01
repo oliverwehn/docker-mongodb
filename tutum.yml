@@ -1,7 +1,10 @@
 db:
-  image: tutum/mongodb
+  image: oliverwehn/mongodb
   environment:
-    MONGODB_PASS: "**ChangeMe**"
+    MONGODB_ADMIN_PASS: "**ChangeMe**"
+    MONGODB_USER_NAME: "**ChangeMe**"
+    MONGODB_USER_PASS: "**ChangeMe**"
+    MONGODB_USER_DB: "**ChangeMe**"
   ports:
     - 27017:27017
     - 28017:28017
