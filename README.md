@@ -19,7 +19,7 @@ To create the image `oliverwehn/mongodb`, execute the following command on the t
 
 ```shell
 # Build mongodb image using v3.0
-docker build -t oliverwehn/mongodb 3.0/ .
+docker build -t oliverwehn/mongodb 3.0/.
 ```
 
 If you’d go the usual way and just let Docker pull the image from Docker Hub, proceed below.
