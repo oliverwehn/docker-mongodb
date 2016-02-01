@@ -15,7 +15,7 @@ Usage
 -----
 
 If you’d like to build the image from its Dockerfile, clone its repo from https://github.com/oliverwehn/oliverwehn-docker-mongodb.
-To create the image `oliverwehn/mongodb`, execute the following command on the tutum-mongodb folder:
+To create the image `oliverwehn/mongodb`, execute the following command on the mongodb folder:
 
 ```shell
 # Build mongodb image using v3.0
