@@ -27,12 +27,12 @@ echo "You can now connect to this MongoDB server using:"
 echo ""
 echo "    mongo admin -u admin -p '$ADMIN_PASS' --host <host> --port <port>"
 if [ ! ${MONGODB_ADMIN_PASS} ]; then
-  echo "Please remember to change the admin password as soon as possible!"
+  echo "    Please remember to change the admin password as soon as possible!"
 fi
 echo ""
 echo "    mongo $USER_DB -u $USER_NAME -p '$USER_PASS' --host <host> --port <port>"
 if [ ! ${MONGODB_USER_PASS} ]; then
-  echo "Please remember to change the user password as soon as possible!"
+  echo "    Please remember to change the user password as soon as possible!"
 fi
 echo ""
 echo "=========================================================================="
